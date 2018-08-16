@@ -1,0 +1,22 @@
+{
+    "name": "irihit/php-console-app",
+    "description": "Console application sample",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tsukasa Irihi",
+            "email": "tsukasa.irihi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "symfony/console": "^3.3",
+        "symfony/yaml": "^3.3",
+        "zendframework/zend-servicemanager": "^3.3"
+    },
+    "autoload": {
+      "psr-4": {
+        "Irihit\\Console\\": "src/"
+      }
+    }
+}

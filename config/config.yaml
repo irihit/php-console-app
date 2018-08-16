@@ -1,0 +1,4 @@
+name: php-console-app
+version: "1.0.0"
+commands:
+  - Irihit\Console\Command\HelloWorldCommand
